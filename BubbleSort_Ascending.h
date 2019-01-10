@@ -6,6 +6,7 @@
 //	is larger than the second.
 //	Every pass through the array, the last element of the previous pass is
 //	ignored because it will have been "bubbled" up to its correct location.
+//	Sorts in ascending order.
 //------------------------------------------------------------------------------
 #ifndef BubbleSort_Ascending_h
 #define BubbleSort_Ascending_h
@@ -53,6 +54,6 @@ void BubbleSort_Ascending(type data[], int length)
 			} // !if
 		} // !for
 	} // !for
-} // !BubbleSort
+} // !BubbleSort_Ascending
 
 #endif // !BubbleSort_Ascending_h
