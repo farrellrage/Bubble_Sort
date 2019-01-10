@@ -1,3 +1,4 @@
 # Bubble_Sort
-Project implementing a simple templated bubble sort algorithm that can operate on any comparable data type
+Project implementing a simple templated bubble sort algorithm that can operate on any comparable data type.
+
 Sorts in ascending order
