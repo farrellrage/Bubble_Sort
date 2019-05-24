@@ -11,14 +11,14 @@
 //	length:
 //		Length of the "data" array.
 //------------------------------------------------------------------------------
-#ifndef BubbleSort_Ascending_h
-#define BubbleSort_Ascending_h
+#ifndef Bubble_Sort_Ascending_h
+#define Bubble_Sort_Ascending_h
 
-#include "Standards.h"
-#include "StandardHelperFunctions.h"
+#include "Main.h"
+#include "Standard_Helper_Functions.h"
 
 template <typename type>
-void BubbleSort_Ascending(type data[], int length)
+void BubbleSortAscending(type data[], int length)
 {
 	type temp;
 
@@ -47,4 +47,4 @@ void BubbleSort_Ascending(type data[], int length)
 	} // !for
 } // !BubbleSort_Ascending
 
-#endif // !BubbleSort_Ascending_h
+#endif // !Bubble_Sort_Ascending_h
